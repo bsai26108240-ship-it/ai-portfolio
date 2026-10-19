@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+  <defs>
+    <linearGradient id="bg-grad-a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070a12"/>
+      <stop offset="50%" stop-color="#020306"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+    <linearGradient id="silver-foil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#cbd5e1"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="75%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="gold-amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="math-glow" cx="50%" cy="45%" r="42%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow-a" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="630" height="880" rx="28" fill="url(#bg-grad-a)"/>
+
+  <!-- Outer Metallic Foil Border -->
+  <rect x="18" y="18" width="594" height="844" rx="20" fill="none" stroke="url(#silver-foil)" stroke-width="2.5" stroke-opacity="0.9"/>
+  <rect x="28" y="28" width="574" height="824" rx="14" fill="none" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Glow Field -->
+  <circle cx="315" cy="380" r="210" fill="url(#math-glow)"/>
+
+  <!-- Top Metadata Header -->
+  <g transform="translate(48, 62)">
+    <rect x="0" y="0" width="168" height="26" rx="13" fill="#0f172a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="14" cy="13" r="4" fill="#60a5fa"/>
+    <text x="26" y="17.5" fill="#e2e8f0" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">CAMBRIDGE // GCE</text>
+
+    <text x="534" y="17.5" text-anchor="end" fill="#94a3b8" font-family="'Courier New', monospace" font-size="11" font-weight="600" letter-spacing="1">CIE ACCREDITED</text>
+  </g>
+
+  <!-- Degree Title -->
+  <text x="48" y="132" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">CAMBRIDGE INTERNATIONAL</text>
+  <text x="48" y="165" fill="url(#silver-foil)" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.5">GCE ADVANCED LEVELS</text>
+  <text x="48" y="194" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="500" letter-spacing="0.5">Cambridge Assessment International Education</text>
+
+  <!-- Divider Line -->
+  <line x1="48" y1="216" x2="582" y2="216" stroke="url(#silver-foil)" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Center Artwork: Mathematical & Theoretical Vectors Emblem -->
+  <g transform="translate(315, 410)">
+    <!-- Coordinate Geometry Circle Grid -->
+    <circle cx="0" cy="0" r="145" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="url(#silver-foil)" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#60a5fa" stroke-opacity="0.45" stroke-width="1.5"/>
+
+    <!-- Coordinate Axes -->
+    <line x1="-130" y1="0" x2="130" y2="0" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25"/>
+    <line x1="0" y1="-130" x2="0" y2="130" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25"/>
+
+    <!-- Vector Curves & Sine Harmonics -->
+    <path d="M-110,0 Q-55,-90 0,0 T110,0" fill="none" stroke="#60a5fa" stroke-width="2.2" stroke-opacity="0.85"/>
+    <path d="M-110,0 Q-55,90 0,0 T110,0" fill="none" stroke="url(#silver-foil)" stroke-width="1.8" stroke-opacity="0.6"/>
+
+    <!-- Geometric Diamond Matrix -->
+    <polygon points="0,-60 60,0 0,60 -60,0" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="3 3"/>
+    
+    <!-- Central Node -->
+    <circle cx="0" cy="0" r="12" fill="#0f172a" stroke="url(#silver-foil)" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="5" fill="#60a5fa"/>
+
+    <!-- Outer Nodes -->
+    <circle cx="-55" cy="-45" r="5" fill="#ffffff" filter="url(#glow-a)"/>
+    <circle cx="55" cy="-45" r="5" fill="#60a5fa" filter="url(#glow-a)"/>
+    <circle cx="-55" cy="45" r="5" fill="#60a5fa" filter="url(#glow-a)"/>
+    <circle cx="55" cy="45" r="5" fill="#ffffff" filter="url(#glow-a)"/>
+
+    <!-- Mathematical Formula Subtitle -->
+    <text x="0" y="165" text-anchor="middle" fill="#64748b" font-family="'Courier New', monospace" font-size="10.5" letter-spacing="2">∫ f(x)dx • Δv/Δt • ANALYTICAL MECHANICS</text>
+  </g>
+
+  <!-- Bottom Specification Box -->
+  <g transform="translate(48, 620)">
+    <rect x="0" y="0" width="534" height="185" rx="14" fill="#090d16" stroke="url(#silver-foil)" stroke-width="1.2" stroke-opacity="0.4"/>
+
+    <!-- Status & Level -->
+    <text x="24" y="32" fill="#60a5fa" font-family="'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="1">CERTIFICATION // COMPLETED</text>
+    <rect x="400" y="16" width="110" height="22" rx="11" fill="#60a5fa" fill-opacity="0.15" stroke="#60a5fa" stroke-width="1"/>
+    <text x="455" y="31" text-anchor="middle" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="700">COMPLETED</text>
+
+    <!-- Key Modules / Focus Areas -->
+    <text x="24" y="66" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700">Core Disciplines &amp; Analytical Foundations</text>
+    <text x="24" y="94" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400">
+      Pure Mathematics (Calculus, Trigonometry &amp; Vectors)
+    </text>
+    <text x="24" y="118" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400">
+      Physics (Mechanics, Fields &amp; Energy) • Analytical Problem Solving
+    </text>
+
+    <!-- Interactive Hint Bar -->
+    <line x1="24" y1="140" x2="510" y2="140" stroke="#1e293b" stroke-width="1"/>
+    <text x="24" y="164" fill="#64748b" font-family="'Courier New', monospace" font-size="10.5" letter-spacing="1">
+      ✦ HOLO CARD • CLICK TO FLIP FOR CURRICULUM DETAILS
+    </text>
+    <text x="510" y="164" text-anchor="end" fill="#60a5fa" font-family="'Courier New', monospace" font-size="10.5">
+      PAGE 01/02 ☍
+    </text>
+  </g>
+
+  <!-- Bottom Accent Tag -->
+  <text x="315" y="838" text-anchor="middle" fill="#475569" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">
+    CAMBRIDGE ASSESSMENT INTERNATIONAL EDUCATION // UK GENERAL CERTIFICATE
+  </text>
+</svg>

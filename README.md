@@ -1,16 +1,61 @@
-# React + Vite
+# Sameer Shah — AI & Ideas Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-ready personal portfolio for **Sameer Shah**, a BS Artificial Intelligence student at SZABIST. Built with **Next.js App Router**, React 19, and modern CSS.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework**: Next.js 16 (App Router)
+- **UI Library**: React 19
+- **Graphics & Visuals**: WebGL / OGL scientific shader veil (`<DitherVeil />`)
+- **Styling**: Vanilla CSS design system with CSS custom properties (high-contrast pitch-black wallpaper, silver typography, electric-blue and violet accents)
+- **Deployment**: Vercel-ready
 
-## React Compiler
+## 📁 Architecture Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```text
+AI-portfolio/
+├── src/
+│   ├── app/
+│   │   ├── layout.jsx      # Root layout, metadata, SEO, Google Fonts preconnect
+│   │   ├── page.jsx        # Server component assembling page sections
+│   │   └── globals.css     # Design tokens, responsive typography, ticker keyframes
+│   ├── components/
+│   │   ├── Navbar.jsx      # Pure typography header (no icons/monograms)
+│   │   ├── Hero.jsx        # Status pill, scramble text headline, coordinate telemetry
+│   │   ├── DitherVeil.jsx  # WebGL mathematical interactive canvas
+│   │   ├── ScrambleText.jsx# Custom character scrambler with scroll & hover triggers
+│   │   ├── TechTicker.jsx  # Continuous right-to-left seamless looping ticker
+│   │   ├── About.jsx       # Academic background (O/A Levels, SZABIST BSAI)
+│   │   ├── Skills.jsx      # Categorized capabilities & research roadmap
+│   │   ├── Projects.jsx    # Project showcase cards with live demo/repo links
+│   │   ├── Contact.jsx     # Interactive copy-to-clipboard email & social channels
+│   │   └── Footer.jsx      # Pure typography footer with status telemetry
+│   └── data/
+│       └── portfolioData.js# Centralized configuration & personalization store
+├── public/
+│   └── favicon.svg         # Scientific orbital SVG favicon (no initials)
+├── next.config.mjs
+└── package.json
+```
 
-## Expanding the ESLint configuration
+## 🛠️ Development & Build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run Locally
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+### Production Build
+```bash
+npm run build
+```
+
+### Linting
+```bash
+npm run lint
+```
+
+## 📝 Customization
+
+To personalize profile data, links, or projects, edit `src/data/portfolioData.js`.

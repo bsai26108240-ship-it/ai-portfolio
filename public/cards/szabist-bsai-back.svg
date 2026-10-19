@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+  <defs>
+    <linearGradient id="back-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080914"/>
+      <stop offset="50%" stop-color="#020307"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="silver-foil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#94a3b8"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="630" height="880" rx="28" fill="url(#back-bg)"/>
+
+  <!-- Outer Metallic Foil Border -->
+  <rect x="18" y="18" width="594" height="844" rx="20" fill="none" stroke="url(#silver-foil)" stroke-width="2.5" stroke-opacity="0.9"/>
+  <rect x="28" y="28" width="574" height="824" rx="14" fill="none" stroke="#818cf8" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Top Metadata Header -->
+  <g transform="translate(48, 62)">
+    <rect x="0" y="0" width="168" height="26" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2"/>
+    <text x="84" y="17.5" text-anchor="middle" fill="#c7d2fe" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" letter-spacing="1.2">ACADEMIC DOSSIER // REVERSE</text>
+    <text x="534" y="17.5" text-anchor="end" fill="#94a3b8" font-family="'Courier New', monospace" font-size="11" font-weight="600" letter-spacing="1">REF: SZ-BSAI-24</text>
+  </g>
+
+  <!-- Section Title -->
+  <text x="48" y="130" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.3">SZABIST BSAI CURRICULUM PILLARS</text>
+  <text x="48" y="156" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5">Deliberate progression from first principles to autonomous cognitive agents.</text>
+
+  <!-- Divider -->
+  <line x1="48" y1="176" x2="582" y2="176" stroke="url(#silver-foil)" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Core Pillars Box 1 -->
+  <g transform="translate(48, 200)">
+    <rect x="0" y="0" width="534" height="110" rx="12" fill="#0b0f19" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="28" cy="30" r="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="28" y="34" text-anchor="middle" fill="#38bdf8" font-family="'Courier New', monospace" font-size="11" font-weight="700">01</text>
+    <text x="52" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700">Mathematical &amp; Theoretical Bedrock</text>
+    <text x="24" y="65" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">
+      Rigorous foundation in Linear Algebra, Vector Spaces, Eigenvalues, Multivariable Calculus, and Probability Theory that power modern gradient descent.
+    </text>
+    <text x="24" y="92" fill="#38bdf8" font-family="'Courier New', monospace" font-size="10.5">STATUS: ACTIVE IN-CLASS LECTURES &amp; LABS</text>
+  </g>
+
+  <!-- Core Pillars Box 2 -->
+  <g transform="translate(48, 330)">
+    <rect x="0" y="0" width="534" height="110" rx="12" fill="#0b0f19" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="28" cy="30" r="12" fill="#0f172a" stroke="#818cf8" stroke-width="1.5"/>
+    <text x="28" y="34" text-anchor="middle" fill="#818cf8" font-family="'Courier New', monospace" font-size="11" font-weight="700">02</text>
+    <text x="52" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700">Software Engineering &amp; Data Structures</text>
+    <text x="24" y="65" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">
+      Algorithmic complexity analysis (Big-O), graphs, search algorithms, memory layout, and object-oriented architectures in Python and C/C++.
+    </text>
+    <text x="24" y="92" fill="#818cf8" font-family="'Courier New', monospace" font-size="10.5">STATUS: WEEKLY PROGRAMMING PRACTICUMS</text>
+  </g>
+
+  <!-- Core Pillars Box 3 -->
+  <g transform="translate(48, 460)">
+    <rect x="0" y="0" width="534" height="110" rx="12" fill="#0b0f19" stroke="url(#silver-foil)" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="28" cy="30" r="12" fill="#0f172a" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="28" y="34" text-anchor="middle" fill="#ffffff" font-family="'Courier New', monospace" font-size="11" font-weight="700">03</text>
+    <text x="52" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700">Machine Learning &amp; Neural Computation</text>
+    <text x="24" y="65" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">
+      Supervised/unsupervised algorithms, cost optimization functions, backpropagation derivation, and neural network mechanics.
+    </text>
+    <text x="24" y="92" fill="#e2e8f0" font-family="'Courier New', monospace" font-size="10.5">STATUS: INDEPENDENT RESEARCH &amp; NOTEBOOKS</text>
+  </g>
+
+  <!-- Research Principle Bar -->
+  <g transform="translate(48, 595)">
+    <rect x="0" y="0" width="534" height="135" rx="12" fill="#070a12" stroke="url(#silver-foil)" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="24" y="32" fill="#38bdf8" font-family="'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="1">STUDENT PLEDGE // FIRST PRINCIPLES</text>
+    <text x="24" y="64" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="500" font-style="italic">
+      “Mastering the fundamentals before adopting abstractions. Writing mathematical equations in code to understand the mechanics beneath artificial intelligence.”
+    </text>
+    <text x="24" y="112" fill="#64748b" font-family="'Courier New', monospace" font-size="11">
+      SZABIST KARACHI CAMPUS • DEPARTMENT OF ARTIFICIAL INTELLIGENCE
+    </text>
+  </g>
+
+  <!-- Bottom Flip Back Prompt -->
+  <g transform="translate(48, 760)">
+    <rect x="0" y="0" width="534" height="48" rx="24" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="267" y="29" text-anchor="middle" fill="#e2e8f0" font-family="'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="1.5">
+      ↺ CLICK OR PRESS ENTER TO FLIP BACK TO FRONT
+    </text>
+  </g>
+
+  <text x="315" y="838" text-anchor="middle" fill="#475569" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">
+    DOCUMENT VERIFIED • BSAI UNDERGRADUATE RECORD
+  </text>
+</svg>
